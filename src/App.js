@@ -23,7 +23,7 @@ class App extends Component {
       console.log('here', jsonData);
       if (jsonData.recipes.length === 0) {
         this.setState(() => {
-          return {error: 'sorry, but your search did not return any result'}
+          return {error: 'sorry sorry, but your search did not return any result'}
         });
       } else {
         this.setState({
